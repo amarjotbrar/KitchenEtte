@@ -3,7 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Literata:opsz@7..72&family=Poppins:wght@400;600&family=Roboto&display=swap");
 
 /* menu */
-
+*{
+  margin: 0;
+  padding: 0;
+}
 section#menu {
     width: 100%;
     height: 100vh;
@@ -56,12 +59,11 @@ section#menu {
   }
   
   section#menu .menu-container .item-box {
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 80%;
-    width: 20%;
+    width: 21%;
   }
 
   section#menu .menu-container .item-box .reset-btn-area{
@@ -69,6 +71,7 @@ section#menu {
     width: 100%;
     display: flex;
     align-items: center;
+    padding: 1rem;
     justify-content: center;
   }
 
@@ -79,15 +82,17 @@ section#menu {
     border-style: none;
     border-radius: 7px;
     font-family: "Gothic A1", sans-serif;
-    font-size: 0.9rem;
-    color: white;
     display: flex;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
   }
 
   section#menu .menu-container .item-box .reset-btn-area .reset-btn p{
     margin-top: 3%;
+    font-size: 0.9rem;
+    color: white;
+    margin: 0;
   }
   
   section#menu .menu-container #prantha-menu{
@@ -123,7 +128,6 @@ section#menu {
     justify-content: space-around;
     padding: 5%;
     box-sizing: border-box;
-  
   }
 
   section#menu .menu-container .item-box .items button:hover{
@@ -131,6 +135,8 @@ section#menu {
   }
   
   section#menu .menu-container .item-box .items ul{
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -151,6 +157,7 @@ section#menu {
     padding-top: 2px;
     font-family: Gothic A1;
     font-size: 20px;
+    margin: 0;
     font-style: normal;
     font-weight: 400;
     color: #ffffff;
@@ -171,7 +178,9 @@ section#menu {
   }
   
   section#menu .menu-container .item-box .items li {
+    padding: 0 0 0 0;
     display: flex;
+    box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
   }
@@ -183,17 +192,25 @@ section#menu {
     width: 20%;
     aspect-ratio: 2.5;
     background-color: gray;
+    box-sizing: border-box;
     border-radius: 5px;
     padding: 0 3px;
+    margin: 0;
   }
   
   section#menu .menu-container .item-box .items .item button{
-    background-color: rgba(107, 107, 107, 0);
-    color: white;
+    background-color: red;
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content:center;
     width: 35%;
+    height: 100%;
+    font-size: 16px;
+    background-color: red;
+    background: transparent;
+    margin: 0 0;
+    padding-bottom: 2px;
   }
   
   section#menu .menu-container .item-box .items .item .button-area .value{
@@ -223,19 +240,24 @@ section#menu {
   }
 
   section#menu .cart-button-area .cart-button{
-    height: 70%;
+    height: 80%;
+    padding: 1rem;
     width: 12%;
     border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* background: rgba(145, 145, 145, 0.42); */
     background: rgba(223, 134, 46, 0.49);
 
   }
 
   section#menu .cart-button-area .cart-button h6{
+    margin: 0;
     font-family: "Gothic A1", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.1px;
     color: #ffffff;
   }
   
