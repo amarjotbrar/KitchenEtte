@@ -30,12 +30,12 @@ body {
 }
 
 /* remove scroll bar for chrome, safari */
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   display: none;
 }
 
 /* remove scroll bar for others */
-body {
+* {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }

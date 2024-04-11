@@ -19,19 +19,19 @@ $("nav img").click(function () {
 
 $("nav #nav_bar_options #menu").click(function () {
   $("html, body").animate({
-    scrollTop : 770
+    scrollTop : 750
   });
 });
 
 $("nav #nav_bar_options #cart, section#menu .cart-button-area .cart-button").click(function () {
   $("html, body").animate({
-    scrollTop : 1550
+    scrollTop : 1520
   });
 });
 
 $("nav #nav_bar_options #about-us").click(function () {
   $("html, body").animate({
-    scrollTop : 2350
+    scrollTop : 2300
   });
 });
 
